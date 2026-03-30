@@ -3,11 +3,11 @@
 ## Описание окружения <a id="environment"/></a>
 
 1. Для вас развёрнуто рабочее окружение в Yandex Cloud:
-* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scale-N`
+* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `devopsN`
 * [Каталог ресурсов](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#folder) `default`
 
 2. Доступ к облаку и каталогу будет предоставлен с помощью аутентификации через федерацию удостоверений. 
-Учетные данные для аутентификации - имя пользователя вида `scale<N>` (где N - ID пользователя) и пароль пользователя будут предоставлены через бот.
+Учетные данные для аутентификации - имя пользователя вида `devops<N>` (где N - ID пользователя) и пароль пользователя будут предоставлены через бот.
 
 ## Задание <a id="task"/></a>
 
@@ -17,7 +17,7 @@
 
 3. Подготовить в любом текстовом редакторе файл [index.html](./index.html) вида:
     ```html
-    <html><body>Privet Scale!<br><br></body></html>
+    <html><body>Privet DevOps!<br><br></body></html>
     ```
 
 4. [Загрузить в бакет](https://yandex.cloud/docs/storage/operations/objects/upload) файл `index.html`.
@@ -35,6 +35,6 @@ curl https://<bucket-name>.website.yandexcloud.net
 
 или открыть соответствующий URL в веб-браузере.
 
-Критерий успеха - это получение строки `Privet Scale` или любой другой строки, которую вы ранее добавили в файл `index.html`, при обращении по соответствующему URL.
+Критерий успеха - это получение строки `Privet DevOps` или любой другой строки, которую вы ранее добавили в файл `index.html`, при обращении по соответствующему URL.
 
 После этого можно отправить задание на проверку нажав кнопку в боте.

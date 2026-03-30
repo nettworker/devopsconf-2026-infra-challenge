@@ -3,13 +3,13 @@
 ## Описание окружения <a id="environment"/></a>
 
 1. Для вас развёрнуто рабочее окружение в Yandex Cloud:
-* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scaleN`
+* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `devopsN`
 * [Каталог ресурсов](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#folder) `default`
 * [Сервер BareMetal](https://yandex.cloud/docs/baremetal) в каталоге ресурсов
 * [Секрет Lockbox](https://yandex.cloud/ru/docs/lockbox/concepts/secret) для доступа через консоль к серверу Baremetal
 
 2. Доступ к облаку и каталогу будет предоставлен с помощью аутентификации через федерацию удостоверений. 
-Учетные данные для аутентификации - имя пользователя вида `scaleN` и пароль будут предоставлены через бот.
+Учетные данные для аутентификации - имя пользователя вида `devopsN` и пароль будут предоставлены через бот.
 
 ## Задание <a id="task"/></a>
 

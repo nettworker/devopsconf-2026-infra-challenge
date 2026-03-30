@@ -3,7 +3,7 @@
 ## Описание окружения <a id="environment"/></a>
 
 1. Для вас развёрнуто рабочее окружение в Yandex Cloud:
-* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scaleN`
+* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `devopsN`
 * [Каталог ресурсов](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#folder) `default`
 
 2. Доступ к облаку и каталогу будет предоставлен с помощью аутентификации через федерацию удостоверений. 
